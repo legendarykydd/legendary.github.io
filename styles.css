@@ -1,0 +1,179 @@
+
+
+#webbod{
+	display: grid;
+	 grid-template-areas: 
+      "header header"
+      "sidebar content"
+      "footer footer";
+      grid-gap: 10px;
+      padding: 10px;
+	background-color: #f0eded;
+	background-image: url('botanical-cactus-close-up-305821.jpg');
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	font-style: white;
+
+}
+
+.heading{
+
+	display: flex;
+	grid-area: header;
+	padding: 20px;
+	color: #ff8080;	
+	border-style: inset solid white;
+	border-radius: 20px;
+	border-bottom: .5px solid white;
+	width: 1250px;
+	height: 50px;
+	justify-content: space-between;
+	overflow: hidden;
+	font-family: "Lucida Handwriting", cursive; 
+
+
+
+}
+
+#right{
+	float: left;
+	width: 800px;
+	grid-area: content;
+	padding: 20px;
+	text-align: left;
+
+
+
+
+}
+#left{
+	float: left;
+	width:300px;
+	grid-area: sidebar;
+	text-align:left;
+	padding: 10px;
+	border-style: outset solid white;
+	border-bottom: 5px solid white;
+	border-radius: 50%;
+}
+
+/*.divpic{
+	object-fit: contain;
+    height: 30%;
+    width: 200px;
+    z-index: -1;
+
+} */
+
+.bio{
+	text-align: left;
+	padding: 20px;
+	border-bottom: 2px solid white;
+	font-family: "Apple Chancery", cursive;
+
+
+}
+
+.experience{
+	text-align: left;
+	padding: 10px;
+	border-bottom: 2px solid white;
+	font-family: "Apple Chancery", cursive;
+}
+
+.education{
+	text-align: left;
+	padding: 10px;
+	border-bottom: 2px solid white;
+	font-family: "Apple Chancery", cursive;
+
+}
+
+.skill{
+	text-align: left;
+	width: 25%; 
+	padding: 10px;
+	font-family: "Apple Chancery", cursive;
+	
+
+}
+
+.listing{
+	text-align: left;
+	align-content: left;
+	border-bottom: 2px solid white;
+	font-family: "Apple Chancery", cursive;
+
+
+
+}
+
+.profile{
+	padding: 20px;
+
+}
+.dukie{
+	border-radius: 50%;
+	height: 230px;
+	border:.1px solid white;
+	filter: grayscale(50%);
+	opacity: 0.8;
+
+}
+
+.contact{
+	text-align: left;
+	padding: 40px;
+	border-bottom: 2px solid white;
+	list-style: none;
+	font-family: "Apple Chancery", cursive;
+
+}
+.phone{
+	width: 30px;
+	height: 30px;
+	font-family: "Apple Chancery", cursive;
+}
+
+.mail{
+	width: 30px;
+	height: 30px;
+	font-family: "Apple Chancery", cursive;
+}
+a:link{
+	color: black;
+	font-family: "Apple Chancery", cursive;
+}
+.Social{
+	padding: 20px;
+	font-family: "Apple Chancery", cursive;
+
+}
+.media{
+	list-style: none;
+	display: flex;
+	transform: translate(-50px,-50px);
+	background: #fff
+	text-align:left;
+	margin: 0px 10px;
+	overflow: hidden;
+	line-height: 30px;
+	display: block;
+
+
+}
+.media li a:hover{
+	transform: rotateY(360deg);
+}
+
+.facebook{
+	width: 100px;
+	height: 100px;
+
+}
+.instagram{
+	width: 100px;
+	height: 100px;
+}
+
